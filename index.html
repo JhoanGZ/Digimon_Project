@@ -1,0 +1,144 @@
+
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Dígimon</title>
+    <!-- Bulma -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <!-- font Awesome Kit -->
+    <script src="https://kit.fontawesome.com/e15e5f35a5.js" crossorigin="anonymous"></script>
+    <!-- stylesheet -->
+    <link rel="stylesheet" href="./projects/assets/css/style.css">
+</head>
+<body>
+<!-- NAVBAR -->
+<nav class="navbar" role="navigation" aria-label="main navigation">
+    <div class="navbar-brand">
+        <a class="navbar-item" href="#footer">
+            <img src="./projects/assets/img/digimon_nav.png" id="navbar-icono">
+        </a>
+        <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+        </a>
+    </div>
+
+    <div id="navbarBasicExample" class="navbar-menu">
+        <div class="navbar-start">
+            <a class="navbar-item">
+                Home
+            </a>
+
+            <a class="navbar-item">
+                Documentación
+            </a>
+
+            <div class="navbar-item has-dropdown is-hoverable">
+                <a class="navbar-link">
+                Más
+                </a>
+
+                <div class="navbar-dropdown">
+                <a class="navbar-item">
+                    
+                </a>
+                <a class="navbar-item">
+                    Trabajos
+                </a>
+                <a class="navbar-item">
+                    Contacto
+                </a>
+                <hr class="navbar-divider">
+                <a class="navbar-item">
+                    Reportar un problema
+                </a>
+            </div>
+            
+        </div>
+    </div>
+    <div class="navbar-end">
+        <div class="navbar-item">
+            <div class="buttons">
+                <a class="button" href="https://www.linkedin.com/in/jhoan-guti%C3%A9rrez-098271214/" target="_blank">
+                    <span class="icon">
+                        <i class="fab fa-linkedin"></i>
+                    </span>
+                </a>
+                <a class="button" href="https://www.linkedin.com/" target="_blank">
+                    <span class="icon">
+                        <i class="fab fa-github"></i>
+                    </span>
+                </a>
+                
+            </div>
+        </div>
+    </div>
+</div>
+</nav>
+
+<!-- Dropdown -->
+<div class="dropdown-container">
+    <div class="is-flex is-justify-content-center">
+        <div class="dropdown">
+            <div class="dropdown-trigger">
+            <button class="button" aria-haspopup="true" aria-controls="dropdown-menu2">
+                <span>Listado Digimons</span>
+                <span class="icon is-small">
+                <i class="fas fa-angle-down" aria-hidden="true"></i>
+                </span>
+            </button>
+            </div>
+            <div class="dropdown-menu" id="dropdown-menu2" role="menu">
+            <div class="dropdown-content">
+                <!-- Dropdown items will be dynamically added here -->
+            </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!-- CARD -->
+<div class="card-container">
+    <div class="columns is-centered">
+        <div class="column is-one-quarter">
+            <div class="card" id="cardContainer" style="display: none;">
+            <div class="card-image">
+                <figure class="image is-4by3">
+                <img src="" alt="Digimon Image" id="imagenCard">
+                </figure>
+            </div>
+            <div class="card-content">
+                <div class="media">
+                <div class="media-content">
+                    <p class="title is-4" id="nombreCard"></p>
+                    <p class="subtitle is-6" id="nivelCard"></p>
+                </div>
+                </div>
+            </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+    
+    <script src="./projects/assets/js/fetching.js"></script>
+</body>
+    <footer class="footer is-fixed-bottom">
+        <div class="content has-text-centered">
+            <p>
+                <strong>Digimon Web</strong> by <a href="https://jgthms.com">Jhoan Gutiérrez</a>.
+                <br><br>The source code is licensed
+                <a href="http://opensource.org/licenses/mit-license.php">MIT</a>. 
+                <br>The website content
+                is licensed <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY NC SA 4.0</a>.
+            </p>
+        </div>
+    </footer>
+</html>
+
