@@ -29,7 +29,7 @@ This project is a web application that displays a list of Digimons and allows us
 ### fetching.js
 
 `fetching.js` file contains JavaScript code that:
-- Fetches data from the [Digimon API](https://digimon-api.vercel.app/api/digimon).
+- Fetches data from the [Digimon API](https://digimon-api.vercel.app/).
 - Dynamically populates the dropdown menu with Digimon names.
 - Updates the card component with the selected Digimon's details when a name is clicked.
 
